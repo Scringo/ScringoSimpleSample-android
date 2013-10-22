@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/work/export/scringo-debug-jars/scringo.2.3.4.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Scringo/export.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.plugins.kiip"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.banners.app"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.feed"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.utils.iabhelper"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.events"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.apps"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.radar"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.chatroom"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.swipe"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.menu"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.service"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.inbox"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.feedback"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.utils.slidingmenu"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.quiz"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.twitter"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.general"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.invite"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.utils"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.controller"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.panel"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.api"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.facebook"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.utils.pulltorefresh"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.profile"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.scores"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.push"/>
+        <javaElement handleIdentifier="=ScringoDev/src&lt;com.scringo.features.quiz.timer"/>
+    </selectedElements>
+</jardesc>
