@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Scringo.setAppId("TEST_APP");
+		Scringo.setAppId("<YOUR_SCRINGO_APP_ID>"); // Create an app at https://dev.scringo.com
 		scringo = new Scringo(this);
 		scringo.init();
 		Button myButton = (Button) findViewById(R.id.myButton);
