@@ -149,7 +149,7 @@
     <string name="scringo_text_search_title">Search</string>
     <string name="scringo_text_sign_in_connect_basic">Please login to %s</string>
     <string name="scringo_text_sign_in_action_like">like this activity and others</string>
-    <string name="scringo_text_sign_in_action_message">message this user</string>
+    <string name="scringo_text_sign_in_action_message">send a message</string>
     <string name="scringo_text_sign_in_action_radar">see who\'s around you</string>
     <string name="scringo_text_follow_connect_message">follow this user</string>
     <string name="scringo_text_no_followers">No followers</string>
@@ -247,4 +247,10 @@
     <string name="scringo_text_quizzes_not_ready_message">Not all required Quiz products were defined correctly. Quizzes might not work as expected!</string>
     <string name="scringo_text_won_free_app">YOU WON A FREE APP!</string>
     <string name="scringo_text_claim_it">Claim it on Google Play</string>
+    <string name="scringo_text_sticker_store">Sticker Store</string>
+    <string name="scringo_text_sticker_pack">Sticker Pack</string>
+    <string name="scringo_text_sticker">Sticker</string>
+    <string name="scringo_text_image">Image</string>
+    <string name="scringo_text_installed">Installed</string>
+    <string name="scringo_text_a_post">a Post</string>
 </resources>

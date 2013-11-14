@@ -44,7 +44,7 @@
     <RelativeLayout
         android:id="@+id/scringoTitleRightButton"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48.5dp"
         android:layout_alignParentRight="true"
         android:background="@drawable/scringo_title_button"
         android:padding="0dp"
@@ -60,18 +60,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:background="@null" />
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:maxHeight="46dp"
+            android:maxWidth="46dp"
+            android:scaleType="centerInside" />
     </RelativeLayout>
 
     <TextView
         android:id="@+id/scringoTitleText"
         style="@style/whiteBoldShadowedText"
         android:layout_width="match_parent"
-        android:gravity="left"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_marginLeft="60dp"
         android:layout_toLeftOf="@id/scringoTitleRightButton"
+        android:gravity="left"
         android:textSize="18dp" />
 
     <LinearLayout

@@ -132,6 +132,27 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="10dp" />
+
+                        <RelativeLayout
+                            android:id="@+id/scringoFeedItemPostItemImageLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:id="@+id/scringoFeedItemPostItemImageImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxHeight="200dp"
+                                android:maxWidth="200dp" />
+
+                            <ProgressBar
+                                android:id="@+id/scringoFeedItemPostItemImageProgress"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_margin="2dp" />
+                        </RelativeLayout>
                     </LinearLayout>
                 </LinearLayout>
 

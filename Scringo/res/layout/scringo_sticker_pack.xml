@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scringo_bg"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <com.scringo.features.ScringoTitleBar
+        android:id="@+id/scringoTitleBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/scringo_profile_overlay_shade"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/scringoImage2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/scringoText1"
+                style="@style/whiteBoldShadowedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/scringoText2"
+                style="@style/grayShadowedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/scringoButton1"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/scringo_blue_button"
+            android:gravity="center"
+            android:padding="0dp" >
+
+            <ProgressBar
+                android:id="@+id/scringoProgress2"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/scringoText3"
+                style="@style/whiteBoldShadowedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/scringo_dash_line"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <GridView
+            android:id="@+id/scringoList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="60dp"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="10dp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="auto_fit"
+            android:padding="10dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp" />
+
+        <ProgressBar
+            android:id="@+id/scringoProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

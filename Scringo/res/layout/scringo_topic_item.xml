@@ -3,6 +3,17 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
+    <Button
+        android:id="@+id/scringoChatLoadEarlier"
+        style="@style/grayBoldShadowedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/scringo_button"
+        android:padding="0dp"
+        android:text="@string/scringo_text_load_earlier_messages_button"
+        android:textSize="16dp" />
+
     <LinearLayout
         android:id="@+id/scringoFeedItemLayout"
         android:layout_width="match_parent"
@@ -60,6 +71,33 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:textSize="12dp" />
+
+                        <ImageView
+                            android:id="@+id/scringoChatItemSticker1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp" />
+
+                        <RelativeLayout
+                            android:id="@+id/scringoChatItemImageLayout1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:id="@+id/scringoChatItemImage1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:adjustViewBounds="true"
+                                android:maxHeight="200dp"
+                                android:maxWidth="200dp" />
+
+                            <ProgressBar
+                                android:id="@+id/scringoChatItemImageProgress1"
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:layout_margin="2dp" />
+                        </RelativeLayout>
                     </LinearLayout>
 
                     <ImageButton
@@ -68,47 +106,6 @@
                         android:layout_height="30dp"
                         android:background="@null"
                         android:src="@drawable/scringo_arrow_down" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/scringoFeedItemPostItem"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="5dp"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:visibility="gone" >
-
-                    <ImageView
-                        android:id="@+id/scringoFeedItemPostItemImage"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:adjustViewBounds="true"
-                        android:maxHeight="60dp"
-                        android:maxWidth="60dp"
-                        android:scaleType="fitStart" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:gravity="center_vertical"
-                        android:orientation="vertical" >
-
-                        <TextView
-                            android:id="@+id/scringoFeedItemPostItemText"
-                            style="@style/whiteShadowedText"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="11dp" />
-
-                        <TextView
-                            android:id="@+id/scringoFeedItemPostItemSubText"
-                            style="@style/grayShadowedText"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textSize="10dp" />
-                    </LinearLayout>
                 </LinearLayout>
 
                 <RelativeLayout
@@ -140,17 +137,6 @@
                             android:layout_marginTop="2dp"
                             android:textSize="12dp" />
                     </LinearLayout>
-
-                    <Button
-                        android:id="@+id/scringoFeedItemPostAction"
-                        style="@style/whiteBoldShadowedText"
-                        android:layout_width="50dp"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:background="@drawable/scringo_button"
-                        android:padding="0dp"
-                        android:textSize="14dp"
-                        android:visibility="gone" />
                 </RelativeLayout>
             </LinearLayout>
         </LinearLayout>
@@ -161,5 +147,17 @@
             android:scaleType="fitXY"
             android:src="@drawable/scringo_dash_line" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/scringoChatLoadEarlier2"
+        style="@style/grayBoldShadowedText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/scringo_button"
+        android:padding="0dp"
+        android:text="@string/scringo_text_load_earlier_messages_button"
+        android:textSize="16dp"
+        android:visibility="gone" />
 
 </LinearLayout>
