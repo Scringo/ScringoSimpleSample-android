@@ -252,5 +252,11 @@
     <string name="scringo_text_sticker">Sticker</string>
     <string name="scringo_text_image">Image</string>
     <string name="scringo_text_installed">Installed</string>
+    <string name="scringo_text_install">Install</string>
     <string name="scringo_text_a_post">a Post</string>
+    <string name="scringo_text_suggested_app">Suggested App</string>
+    <string name="scringo_text_by_signing">By signing up you agree to our $ and $</string>
+    <string name="scringo_text_by_logging">By logging in you agree to our $ and $</string>
+    <string name="scringo_text_privacy_policy">Privacy Policy</string>
+    <string name="scringo_text_terms_of_use">Terms of Use</string>
 </resources>
