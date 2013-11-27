@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <resources> 
+
     <string name="scringo_text_activity_share">Deze optie uitzetten betekent dat je activiteiten in deze app niet worden gedeeld met andere app gebruikers. We plaatsen nooit automatisch berichten op je sociale netwerken, zelfs als deze optie aan staat.</string> 
     <string name="scringo_text_anonymous_activity_message">Verbind met Facebook of Twitter om met andere mensen te communiceren via %s</string> 
     <string name="scringo_text_anonymous_message">Verbind met Facebook of Twitter om andere mensen berichten te sturen via %s</string> 
@@ -239,6 +240,18 @@
     <string name="scringo_text_quiz_coins_cost">%s Munten</string>
     <string name="scringo_text_quizzes_not_ready_title">Quizzen nog niet gereed!</string>
     <string name="scringo_text_quizzes_not_ready_message">Niet alle quiz producten zijn correct gedefinieerd. De quizzen werken mogelijk niet correct!</string>
-    <string name="scringo_text_won_free_app">YOU WON A FREE APP!</string>
-    <string name="scringo_text_claim_it">Claim it on Google Play</string>
+    <string name="scringo_text_won_free_app">Je hebt een gratis app gewonnen!</string>
+    <string name="scringo_text_claim_it">Claim het op Google Play</string>
+    <string name="scringo_text_sticker_store">Sticker Winkel</string>
+    <string name="scringo_text_sticker_pack">Sticker Pakket</string>
+    <string name="scringo_text_sticker">Sticker</string>
+    <string name="scringo_text_image">Afbeelding</string>
+    <string name="scringo_text_installed">Geinstalleerd</string>
+    <string name="scringo_text_install">Installeer</string>
+    <string name="scringo_text_a_post">een Post</string>
+    <string name="scringo_text_suggested_app">Aangeraden App</string>
+    <string name="scringo_text_by_signing">Door lid te worden ga je akkoord met $ en $</string>
+    <string name="scringo_text_by_logging">Door in te loggen ga je akkoord met $ en $</string>
+    <string name="scringo_text_privacy_policy">Privacy Beleid</string>
+    <string name="scringo_text_terms_of_use">Gebruiksovereenkomst</string>
 </resources>

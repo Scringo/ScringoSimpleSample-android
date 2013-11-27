@@ -48,12 +48,26 @@
         android:layout_alignParentRight="true"
         android:background="@drawable/scringo_title_button"
         android:padding="0dp"
-        android:visibility="gone" >
+        android:visibility="gone">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/scringo_title_separator" />
+
+        <TextView
+            android:id="@+id/scringoActivationBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@drawable/scringo_home_badge"
+            android:gravity="center_horizontal"
+            android:paddingBottom="0dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="2dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
 
         <ImageView
             android:id="@+id/scringoTitleIcon"

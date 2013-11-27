@@ -160,8 +160,8 @@
                     android:id="@+id/scringoProgress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true" 
-                    android:visibility="gone"/>
+                    android:layout_centerInParent="true"
+                    android:visibility="gone" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -340,34 +340,58 @@
                     android:padding="10dp"
                     android:visibility="visible" >
 
-                    <RelativeLayout
+                    <LinearLayout
+                        android:id="@+id/scringoPanelProfileInbox"
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
                         android:background="@drawable/scringo_profile_cell"
-                        android:padding="0dp" >
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="8dp"
+                        android:visibility="gone" >
 
-                        <ScrollView
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent" >
+                        <TextView
+                            android:id="@+id/scringoPanelProfileInboxText"
+                            style="@style/whiteBoldShadowedText"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/scringo_text_messages_tab_title"
+                            android:textSize="16dp" />
 
-                            <TextView
-                                android:id="@+id/scringoPanelProfileBio"
-                                style="@style/grayShadowedText"
-                                android:layout_width="match_parent"
-                                android:layout_height="90dp"
-                                android:padding="5dp" />
-                        </ScrollView>
-
-                        <ImageButton
-                            android:id="@+id/scringoPanelProfileBioEdit"
+                        <TextView
+                            android:id="@+id/scringoPanelProfileInboxBadge"
+                            style="@style/grayBoldShadowedText"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentBottom="true"
-                            android:layout_alignParentRight="true"
-                            android:layout_margin="5dp"
-                            android:background="@null"
-                            android:src="@drawable/scringo_edit_icon" />
-                    </RelativeLayout>
+                            android:background="@drawable/scringo_badge_2"
+                            android:gravity="center"
+                            android:padding="0dp"
+                            android:visibility="gone"
+                            android:shadowColor="#ffffff"
+                            android:textColor="#666666" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/scringoPanelProfileSettings"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/scringo_profile_cell"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="8dp" >
+
+                        <TextView
+                            style="@style/whiteBoldShadowedText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/scringo_text_settings"
+                            android:textSize="16dp" />
+                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/scringoPanelProfileSocialLayout"
@@ -482,6 +506,36 @@
                             android:textSize="14dp" />
                     </LinearLayout>
 
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/scringo_profile_cell"
+                        android:padding="0dp" >
+
+                        <ScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <TextView
+                                android:id="@+id/scringoPanelProfileBio"
+                                style="@style/grayShadowedText"
+                                android:layout_width="match_parent"
+                                android:layout_height="90dp"
+                                android:padding="5dp" />
+                        </ScrollView>
+
+                        <ImageButton
+                            android:id="@+id/scringoPanelProfileBioEdit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_margin="5dp"
+                            android:background="@null"
+                            android:src="@drawable/scringo_edit_icon" />
+                    </RelativeLayout>
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -516,25 +570,6 @@
                             android:layout_height="wrap_content"
                             android:text="@string/scringo_text_activity_share"
                             android:textSize="14dp" />
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/scringoPanelProfileSettings"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:background="@drawable/scringo_profile_cell"
-                        android:orientation="horizontal"
-                        android:paddingBottom="8dp"
-                        android:paddingLeft="5dp"
-                        android:paddingTop="8dp" >
-
-                        <TextView
-                            style="@style/whiteBoldShadowedText"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/scringo_text_settings"
-                            android:textSize="16dp" />
                     </LinearLayout>
                 </LinearLayout>
 

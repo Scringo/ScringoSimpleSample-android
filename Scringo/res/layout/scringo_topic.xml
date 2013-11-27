@@ -50,7 +50,7 @@
             android:layout_marginLeft="5dp"
             android:background="@drawable/scringo_message_send_button"
             android:padding="0dp"
-            android:src="@drawable/scringo_camera"
+            android:src="@drawable/scringo_camera_button_icon"
             android:textSize="14dp" />
 
         <RelativeLayout
@@ -68,13 +68,13 @@
                 android:background="@drawable/scringo_message_edit"
                 android:paddingBottom="0dp"
                 android:paddingLeft="3dp"
-                android:paddingRight="24dp"
+                android:paddingRight="29dp"
                 android:paddingTop="0dp"
                 android:textColor="#000000" />
 
             <ImageButton
                 android:id="@+id/scringoButton2"
-                android:layout_width="19dp"
+                android:layout_width="24dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"

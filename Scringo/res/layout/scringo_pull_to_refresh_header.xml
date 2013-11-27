@@ -7,15 +7,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_vertical"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
         android:orientation="horizontal" >
 
         <FrameLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content" >
 
             <ImageView
                 android:id="@+id/scringoPullToRefreshImage"
@@ -32,22 +31,24 @@
                 android:visibility="gone" />
         </FrameLayout>
 
-        <LinearLayout android:layout_marginLeft="5dp"
+        <LinearLayout
             android:layout_width="0px"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:layout_weight="1"
             android:orientation="vertical" >
 
             <TextView
                 android:id="@+id/scringoPullToRefreshText"
+                style="@style/whiteBoldShadowedText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:textAppearance="?android:attr/textAppearanceMedium"
-                android:textStyle="bold" />
+                android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
                 android:id="@+id/scringoPullToRefreshSubText"
+                style="@style/whiteBoldShadowedText"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
@@ -59,8 +60,8 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:scaleType="fitXY"
         android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
         android:src="@drawable/scringo_dash_line"
         android:visibility="visible" />
 
